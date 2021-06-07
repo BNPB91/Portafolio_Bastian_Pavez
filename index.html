@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TRUE DP</title>
+    <link rel="stylesheet" href="./assets/CSS/grid.css" />
+    <link rel="stylesheet" href="./assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c9fc359259.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav>
+      <div class="menu">
+        <div class="row space-between">
+          <div class="logo-container">
+            <a href="#"><img src="./assets/Images/logo.png" alt="" /></a>
+          </div>
+          <div class="align-items relative">
+            <div class="visibility">
+              <button>Login</button>
+              <button>Sign Up</button>
+              <<button>Menu</button>
+            </div>
+            <div class="align-items menu-icon absolute">
+              <i class="fas fa-bars icon-style" id="responsive-menu-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="justify-content2">
+          <div class="hidden-menu" id="hidden-menu">
+            <div>
+              <button>Sign Up</button>
+            </div>
+            <div class="justify-content2">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section>
+      <div class="header-style">
+        <div class="container text-align">
+          <h1>
+            <span>TRUE</span><br />
+            <span>D</span><span>P</span>
+          </h1>
+        </div>
+        <div class="container justify-content margin-top">
+          <a href="#about"
+            ><i class="fas fa-angle-double-down icon-style"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+    <section id="about">
+      <div class="container">
+        <div class="row margin flex-wrap">
+          <div class="container2 size-max">
+            <img
+              class="photo.perfil"
+              src="./assets/img/Foto de Perfil.PNG"
+              alt="Developer"
+            />
+          </div>
+          <div class="container2 margin text-align size-max">
+            <h2 class="margin-responsive">WELCOME!</h2>
+            <p class="margin">
+              I'm <strong>Bastian Pavez</strong>, I am from the Provincial of
+              Melipilla, in the Metropolitan Region of
+              <a
+                class="LINK"
+                href="https://www.google.com/maps/place/Melipilla,+Regi%C3%B3n+Metropolitana/@-33.6874279,-71.2144615,15z/data=!4m5!3m4!1s0x966300003f7690e5:0x582872cdf30d9dfe!8m2!3d-33.6858668!4d-71.2180485"
+                ><strong>Chile</strong> </a
+              >, I am currently a student at Academlo. To be a Full-Stack
+              Developer
+            </p>
+            <p class="margin">
+              This is my first attempt at my "portfolio", I hope I have not done
+              so badly, I will continue to make more changes with the knowledge
+              that I acquire throughout this course at Academlo.
+            </p>
+            <p class="margin">
+              The portfolio is made with the languages ​​of
+              <strong>HTML</strong>, <strong>CSS</strong> and a bit of
+              <strong>JavaScript</strong>
+            </p>
+            <p class="margin">
+              In this portfolio I will tell you about me. I am a construction
+              engineer, today I work in a trade that is carpentry, founded the
+              SME "Muebles_Mamull" of which I will show you part of my work next
+              in "Projects"
+            </p>
+          </div>
+          <button>Download CV</button>
+          <button>Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="background-image" id="services">
+      <div class="container">
+        <h2 class="text-align margin">KNOWLEDGE</h2>
+        <div class="row flex-wrap">
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-html5 icon-style"></i>
+            <h3>HTML</h3>
+            <p class="margin">
+                HTML language (hypertext markup language) is used for the development and creation of web pages. It is made up of a series of tags that the browser interprets. Among the tags that are included within the HTML language are: hyperlinks, image tags, page breaks, among others.
+            </p>
+          </div>
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-css3-alt icon-style"></i>
+            <h3>CSS</h3>
+            <p class="margin">
+                CSS stands for "cascading style sheets". Basically, it is a language that handles the design and presentation of web pages, that is, how they look when a visitor visits them. It works together with the HTML language, which takes care of the basic content of the pages
+            </p>
+          </div>
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-js icon-style"></i>
+            <h3>Javascript</h3>
+            <p class="margin">
+                JavaScript is the only programming language that works natively in browsers (interpreted language without the need for compilation). Therefore it is used as a complement to HTML and CSS to create web pages
+            </p>
+          </div>
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-react icon-style"></i>
+            <h3>React</h3>
+            <p class="margin">
+                JavaScript is the only programming language that works natively in browsers (interpreted language without the need for compilation). Therefore it is used as a complement to HTML and CSS to create web pages
+            </p>
+          </div>
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-python icon-style"></i>
+            <h3>Python</h3>
+            <p class="margin">
+                Python is a fast, scalable, robust and open source writing language, advantages that make Python a perfect ally for Artificial Intelligence. It allows you to capture complex ideas with a few lines of code, which is not possible with other languages.
+            </p>
+          </div>
+          <div class="column text-align size-min size-mid">
+            <i class="fab fa-node-js icon-style"></i>
+            <h3>Node.js</h3>
+            <p class="margin">
+                Node. js es un entorno JavaScript que nos permite ejecutar en el servidor, de manera asíncrona, con una arquitectura orientada a eventos y basado en el motor V8 de Google. Es una plataforma que avanza muy rápidamente y cada vez está más presente en el mercado.
+            </p>
+          </div>
+        </div>
+        <div class="container margin">
+          <div class="container2 space-between justify-content margin size-min"></div>
+            
+            
+            <h2> <strong>I invite you to know me even more ... !!</strong></h2>
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery : Images -->
+
+    <section id="gallery">
+      <div class="container margin text-align">
+        <h2>Projects</h2>
+        <p class="margin">
+          This is my gallery of my current works, keeping in mind that in the
+          future I will replace them with the projects I have done as a
+          developer. If you like any project that you will see below, locate me
+          here in the following
+          <a href="https://www.instagram.com/muebles_mamull/?hl=es-la">
+            Instagram
+          </a>
+          profile or to my site web
+          <a href="https://mueblesmamull.webnode.cl/"> Muebles_Mamull </a>
+        </p>
+      </div>
+      <!-- PADRE  -->
+      <div class="container">
+          <!-- Hijo -->
+        <div class="row flex-wrap">
+            <!--HIJO de Hijo -->
+            <!-- IMAGEN N°1 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/p/CKFQW4TH8QE/" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/1.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+            <!-- IMAGEN N°2 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/2.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°3 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/3.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°4 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/4.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°5 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/5.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°6 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <img src="./assets/img/img recort/6.PNG"alt="_blank"/>
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°7 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <!-- <img src="./assets/img/img mub/m8.jpg"alt="Muebles_Mamull/> -->
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°8 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+                <!-- <img src="./assets/img/img mub/m9.jpg"alt="Muebles_Mamull/> -->
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+          <!-- IMAGEN N°9 -->
+          <div class="column size-max">
+            <a href="https://www.instagram.com/muebles_mamull/?hl=es-la" target="_blank">
+              <div class="relative picture">
+              <!-- <img src="./assets/img/img mub/m10.jpg"alt="Muebles_Mamull/> -->
+                <div class="overlay absolute">Muebles_Mamull</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section>
+      <div class="container margin">
+        <div class="separator"></div>
+      </div>
+      <div class="container margin">
+        <div class="text-align">
+            <h2><a href="https://wa.link/3iy46m">Contact</a></h2>
+            
+               </div>
+        <div class="row margin flex-wrap">
+          <div class="column align-items justify-content size-max">
+            <i class="fas fa-mobile-alt icon-style"></i>
+            <p class="margin">(+569) 69 00 70 27</p>
+          </div>
+          <div class="column align-items justify-content size-max">
+            <i class="far fa-envelope icon-style"></i>
+            <p class="margin">bastian.npb@gmail.com</p>
+          </div>
+          <div class="column align-items justify-content size-max">
+            <i class="fas fa-map-marker-alt icon-style"></i>
+            <p class="margin">Region Metropolitana, Chile.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container2 text-align">
+          <div class="container2 space-around size-min">
+            <a href="https://es-la.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/BNPB91" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://open.spotify.com/user/12159108019?si=792ca6201f094f16"
+              target="_blank"
+              ><i class="fab fa-spotify"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container margin">
+        <div class="separator"></div>
+      </div>
+    </section>
+
+    <!-- Menu Bottom-->
+    <section>
+      <div class="container margin">
+        <div class="justify-content margin">
+          <div class="logo-container">
+            <a href="#"><img src="./assets/Images/logo.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="justify-content">
+          <a href="#about"
+            ><ul>
+              About
+            </ul></a
+          >
+          <a href="#services"
+            ><ul>
+              Services
+            </ul></a
+          >
+          <a href="#gallery"
+            ><ul>
+              Gallery
+            </ul></a
+          >
+          <ul>
+            FAQ
+          </ul>
+          <ul>
+            Privacy
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/JS/menu.js"></script>
+  </body>
+</html>
